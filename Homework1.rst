@@ -34,3 +34,4 @@ For CWL:
 
 3. Cost
 ========
+Storage of 100GB on Amazon S3 Standard = $2.30/month
