@@ -11,7 +11,7 @@ Clone the Github repository and build the container.
  	$ git clone https://github.com/EvolutionaryGenomics/scalability-reproducibility-chapter.git
   	cd scalability-reproducibility-chapter
   	cd Docker
-  	docker build -t scalability
+  	docker build -t scalability .
 ..
  
 For Snakemake:
@@ -25,8 +25,7 @@ For CWL:
 .. code-block:: bash
 
  docker pull nvk747/cwl_docker2
- docker run -it --name cwl -v /home/carlos88/scalability-reproducibility-chapter/:/cwl_analysis nvk747/cwl_docker:latest
- docker run -it -v /home/carlos88/scalability-reproducibility-chapter/data/:/data -v /home/carlos88/scalability-reproducibility-chapter/CWL/:/cwl nvk747/cwl_docker2:latest
+ docker run -it -v ${HOME}/scalability-reproducibility-chapter/data/:/data -v ${HOME}/scalability-reproducibility-chapter/CWL/:/cwl nvk747/cwl_docker2:latest
  cwl-runner /cwl/workflow_simple.cwl /cwl/workflow_simple-job.yaml
 
 2. Compare syntaxes.
