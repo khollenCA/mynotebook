@@ -18,7 +18,7 @@ For Snakemake:
  
 .. code-block:: bash
 
-  docker run -t -v ${pwd}/scalability-reproducibility-chapter:/analysis evolutionarygenomics/scalability_snakemake snakemake -j 2 --timestamp -s /analysis/Snakemake/Snakefile -d /analysis/scalability-reproducibility-chapter
+  docker run -t -v ${HOME}/scalability-reproducibility-chapter:/analysis evolutionarygenomics/scalability_snakemake snakemake -j 2 --timestamp -s /analysis/Snakemake/Snakefile -d /analysis/scalability-reproducibility-chapter
 
 For CWL:
 
