@@ -38,3 +38,5 @@ CWL describes requirements, all of the inputs, all of the outputs, and then the 
 3. Cost
 ========
 Storage of 100GB on Amazon S3 Standard = $2.30/month
+
+Storage of 100GB on Google Cloud Storage = $2.60/month
