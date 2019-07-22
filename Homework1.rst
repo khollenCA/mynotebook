@@ -31,6 +31,10 @@ For CWL:
 2. Compare syntaxes.
 ========
 
+Snakemake's syntax is grouped by rules with an input and output for each rule.
+
+CWL describes requirements, all of the inputs, all of the outputs, and then the workflow steps.
+
 3. Cost
 ========
 Storage of 100GB on Amazon S3 Standard = $2.30/month
